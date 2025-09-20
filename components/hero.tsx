@@ -261,7 +261,10 @@ function HeroContent() {
     };
 
     return (
-        <section className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-background via-background to-background/80">
+        <section
+            id="home"
+            className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-background via-background to-background/80"
+        >
             {/* Interactive Particle Background */}
             <div className="absolute inset-0">
                 <InteractiveParticles />
@@ -313,11 +316,13 @@ function HeroContent() {
                         className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto text-balance leading-relaxed"
                         variants={itemVariants}
                     >
-                        I architect and build end-to-end digital solutions that
-                        scale. From crafting intuitive user interfaces to
-                        designing robust backend systems, I deliver full-stack
-                        applications that drive business growth and exceed user
-                        expectations.
+                        Full Stack Developer with over 3 years of experience
+                        delivering scalable web solutions using the MERN stack.
+                        Skilled in developing and deploying full stack
+                        applications with expertise in cloud infrastructure,
+                        CI/CD pipelines, and DevOps tools. Proven ability to
+                        increase efficiency, improve user engagement, and
+                        deliver production-ready solutions.
                     </motion.p>
 
                     <motion.div

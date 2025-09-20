@@ -8,22 +8,27 @@ import { MouseBubble } from "@/components/mouse-bubble";
 import "./globals.css";
 
 export const metadata: Metadata = {
-    title: "Alex Chen - Frontend Developer",
+    title: "Srijan Das - Full Stack Developer",
     description:
-        "Frontend Developer specializing in React, TypeScript, and modern web technologies. Creating exceptional digital experiences.",
+        "Full Stack Developer with over 3 years of experience delivering scalable web solutions using the MERN stack. Skilled in cloud infrastructure, CI/CD pipelines, and DevOps tools.",
     generator: "v0.app",
     keywords: [
-        "Frontend Developer",
+        "Full Stack Developer",
         "React",
-        "TypeScript",
+        "Node.js",
+        "MERN Stack",
         "Web Development",
-        "UI/UX",
+        "JavaScript",
+        "TypeScript",
+        "AWS",
+        "Azure",
+        "DevOps",
     ],
-    authors: [{ name: "Alex Chen" }],
+    authors: [{ name: "Srijan Das" }],
     openGraph: {
-        title: "Alex Chen - Frontend Developer",
+        title: "Srijan Das - Full Stack Developer",
         description:
-            "Frontend Developer specializing in React, TypeScript, and modern web technologies.",
+            "Full Stack Developer with over 3 years of experience delivering scalable web solutions using the MERN stack.",
         type: "website",
     },
 };
